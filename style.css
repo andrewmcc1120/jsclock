@@ -1,5 +1,5 @@
 html {
-    background:#018DED url(https://upload.wikimedia.org/wikipedia/commons/6/6d/Brick_Wall_Tarks.jpg);
+    background:rgb(0, 0, 0) url(https://upload.wikimedia.org/wikipedia/commons/6/6d/Brick_Wall_Tarks.jpg);
     background-size:cover;
     font-family:'helvetica neue';
     text-align: center;
@@ -48,4 +48,8 @@ html {
     transform: rotate(90deg);
     transition: all 0.05s;
     transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+  }
+
+  .second-hand {
+    background: red;
   }
