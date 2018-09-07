@@ -4,14 +4,25 @@
     <meta charset="UTF-8">
     <title>real time clock</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="clock">
-        <div class="clock-face">
-            <div class="hand hour-hand"></div>
-            <div class="hand min-hand"></div>
-            <div class="hand second-hand"></div>
+    <div class="container">
+        <div class="clock">
+            <div class="clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand second-hand"></div>
+                <div class="clock-center"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="digital-clock">
+            <div class="digital-face">
+                <h1 id="digital-time"></h1>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
